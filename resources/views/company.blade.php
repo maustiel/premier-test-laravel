@@ -4,3 +4,5 @@
             @foreach ($info as $key => $value)
                 <li>{{$key}}:{{$value}}</li>
             @endforeach
+        </ul>
+</x-layouts.company>

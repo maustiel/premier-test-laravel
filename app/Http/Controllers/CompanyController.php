@@ -15,6 +15,6 @@ class CompanyController extends Controller
             'Mission' => 'Réparer plutôt que remplacer',
         ];
 
-        return view('company', ['infos' => $info]);
+        return view('company', ['info' => $info]);
     }
 }
